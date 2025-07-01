@@ -58,7 +58,7 @@ export default function Footer() {
               <div className="flex items-start space-x-3 group">
                 <MapPin className="h-5 w-5 text-primary-500 mt-0.5 group-hover:text-primary-400 transition-colors" />
                 <span className="text-slate-300 text-sm group-hover:text-white transition-colors">
-                  123 Fitness Street, City, State 12345
+                 Opposite Plateau State Water Board, Jos, Plateau State 940100
                 </span>
               </div>
               <div className="flex items-center space-x-3 group">
