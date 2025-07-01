@@ -1,16 +1,15 @@
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Clock, Users, TrendingUp, ArrowRight, Check } from "lucide-react"
-
 const programs = [
   {
     title: "Strength Training",
     description: "Build muscle mass and increase overall strength with our comprehensive weight training programs.",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "https://cdn.pixabay.com/photo/2017/04/26/09/44/sport-2262083_1280.jpg?height=400&width=600",
     duration: "45-60 min",
     level: "All Levels",
     intensity: "High",
-    price: "$80/month",
+    price: "₦25,000/month",
     features: [
       "Free weights and machines",
       "Progressive overload programs",
@@ -23,11 +22,11 @@ const programs = [
   {
     title: "HIIT Classes",
     description: "High-intensity interval training designed for maximum calorie burn and cardiovascular improvement.",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "https://cdn.pixabay.com/photo/2024/02/23/13/13/asian-8592037_1280.jpg?height=300&width=400",
     duration: "30-45 min",
     level: "Intermediate+",
     intensity: "Very High",
-    price: "$60/month",
+    price: "₦20,000/month",
     features: [
       "Small group classes (max 12)",
       "Varied workout formats",
@@ -40,11 +39,11 @@ const programs = [
   {
     title: "Personal Training",
     description: "One-on-one coaching tailored specifically to your goals, fitness level, and preferences.",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "https://cdn.pixabay.com/photo/2016/03/31/03/23/fitness-1291997_1280.jpg?height=300&width=400",
     duration: "60 min",
     level: "All Levels",
     intensity: "Customized",
-    price: "$120/session",
+    price: "₦15,000/session",
     features: [
       "Personalized workout plans",
       "Goal-specific programming",
@@ -58,11 +57,11 @@ const programs = [
     title: "Yoga & Flexibility",
     description:
       "Improve flexibility, balance, and mental well-being through various yoga styles and stretching routines.",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "https://cdn.pixabay.com/photo/2017/07/31/11/30/people-2557460_1280.jpg?height=400&width=600",
     duration: "60-75 min",
     level: "All Levels",
     intensity: "Low-Medium",
-    price: "$50/month",
+    price: "₦15,000/month",
     features: [
       "Multiple yoga styles",
       "Meditation sessions",
@@ -75,11 +74,11 @@ const programs = [
   {
     title: "Cardio Conditioning",
     description: "Improve cardiovascular health and endurance through varied cardio workouts and equipment.",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "https://cdn.pixabay.com/photo/2024/02/01/12/18/man-8545861_1280.jpg?height=400&width=600",
     duration: "30-45 min",
     level: "All Levels",
     intensity: "Medium-High",
-    price: "$45/month",
+    price: "₦18,000/month",
     features: [
       "Treadmills, bikes, ellipticals",
       "Interval training programs",
@@ -92,11 +91,11 @@ const programs = [
   {
     title: "Functional Fitness",
     description: "Train movements that help you perform daily activities more efficiently and safely.",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "https://cdn.pixabay.com/photo/2016/02/04/23/02/gym-room-1180062_1280.jpg?height=400&width=600",
     duration: "45 min",
     level: "All Levels",
     intensity: "Medium",
-    price: "$65/month",
+    price: "₦22,000/month",
     features: [
       "Movement pattern training",
       "Balance and coordination",
@@ -106,7 +105,8 @@ const programs = [
     ],
     benefits: ["Better daily function", "Injury prevention", "Improved balance", "Enhanced quality of life"],
   },
-]
+];
+
 
 export default function ProgramsPage() {
   return (
